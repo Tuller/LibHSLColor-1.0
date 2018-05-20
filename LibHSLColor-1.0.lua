@@ -106,7 +106,7 @@ local function rgbToHSL(r, g, b)
 
     h = h / 6
 
-    return h, s, l
+    return h * 360, s, l
 end
 
 local function rgbToHSLA(r, g, b, a)
